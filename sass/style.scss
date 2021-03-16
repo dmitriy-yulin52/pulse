@@ -1,0 +1,28 @@
+@import 'base/variables';
+@import 'block/header';
+@import 'block/button';
+@import 'block/selection';
+@import 'block/advantages';
+@import 'block/consultation';
+@import 'block/carousel';
+@import 'block/catalog';
+@import 'block/reviews';
+@import 'block/footer';
+@import 'block/modal';
+* {
+    font-family: 'MuseoModerno', cursive;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.promo {
+    min-height: 650px;
+    background: url('../img/promo.jpg')center (center/cover) no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
