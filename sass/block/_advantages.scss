@@ -40,6 +40,7 @@
         color: #ff0000;
         &:hover {
             color: $main-color;
+            text-decoration: underline;
         }
     }
 }
