@@ -1,3 +1,4 @@
+@import 'base/animations';
 @import 'base/variables';
 @import 'block/header';
 @import 'block/button';
@@ -9,6 +10,8 @@
 @import 'block/reviews';
 @import 'block/footer';
 @import 'block/modal';
+@import 'block/pageup';
+@import 'base/animations';
 * {
     font-family: 'MuseoModerno', cursive;
 }

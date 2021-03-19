@@ -21,6 +21,12 @@
         height: 70px;
         display: block;
         margin: 0 auto;
+        &_animated {
+            animation: heartbeat 1s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
     }
     &__text {
         font-size: 18px;

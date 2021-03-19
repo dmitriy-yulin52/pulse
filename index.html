@@ -10,13 +10,14 @@
     <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
 
 
-    <section class="promo">
+    <section id="up" class="promo">
         <div class="container">
             <div class="header">
                 <div class="header__logo">
@@ -61,12 +62,12 @@
             <h2 class="advantages__title">НАШИ ПРЕИМУЩЕСТВА</h2>
             <div class="advantages__content">
                 <div class="advantages__item">
-                    <img src="icons/advantages1.png" alt="" class="advantages__img">
+                    <img src="icons/advantages1.png" alt="" class="advantages__img advantages__img_bort">
                     <div class="advantages__text">Делимся опытом</div>
                     <div class="advantages__descr">Наши сотрудники всегда готовы поделиться своим опытом, так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</div>
                 </div>
                 <div class="advantages__item">
-                    <img src="icons/advantages2.png" alt="" class="advantages__img">
+                    <img src="icons/advantages2.png" alt="" class="advantages__img advantages__img_animated">
                     <div class="advantages__text">Заботимся о здоровье</div>
                     <div class="advantages__descr">Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!
                     </div>
@@ -395,7 +396,7 @@
         <div class="container">
             <h2 class="reviews__title">отзывы клиентов</h2>
             <div class="reviews__content">
-                <div class="reviews-item">
+                <div class="reviews-item animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                     <div><img src="img/reviews1.png" alt="" class="reviews-item__img"></div>
                     <div class="reviews-item__content">
                         <div class="reviews-item__name">Ирина Иванченко
@@ -408,7 +409,7 @@
                     </div>
                 </div>
                 <hr>
-                <div class="reviews-item">
+                <div class="reviews-item animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                     <div><img src="img/reviews2.png" alt="" class="reviews-item__img"></div>
                     <div class="reviews-item__content">
                         <div class="reviews-item__name">
@@ -422,7 +423,7 @@
                     </div>
                 </div>
                 <hr>
-                <div class="reviews-item">
+                <div class="reviews-item animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                     <div><img src="img/reviews3.png" alt="" class="reviews-item__img"></div>
                     <div class="reviews-item__content">
                         <div class="reviews-item__name">
@@ -487,6 +488,8 @@
         </div>
     </div>
 
+    <a href="#up" class="pageup"><img src="icons/chevron-circle-up-solid.svg" alt="up"></a>
+
 
 
 
@@ -502,6 +505,7 @@
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 
